@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dip"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.sophiadaniels.arcclock.WidgetClock
+        android:id="@+id/widgetClock1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

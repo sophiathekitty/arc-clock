@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+   	
+   	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="178dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Seconds"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Radious"/>
+		<EditText
+		    android:id="@+id/min_r"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="95" />
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Width" />
+
+		<EditText
+		    android:id="@+id/min_w"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="28" />
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Tail" />
+
+		<EditText
+		    android:id="@+id/min_tail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="30" />
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arc" />
+
+		<CheckBox
+		    android:id="@+id/min_arc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="true" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arm" />
+
+		<CheckBox
+		    android:id="@+id/min_arm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="false" />
+
+		</LinearLayout>
+						
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Minutes"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Radious"/>
+
+		<EditText
+		    android:id="@+id/hour_r"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="85" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Width"/>
+
+		<EditText
+		    android:id="@+id/hour_w"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="14" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Tail" />
+
+		<EditText
+		    android:id="@+id/hour_tail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="30" />
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arc" />
+
+		<CheckBox
+		    android:id="@+id/hour_arc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="true" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arm" />
+
+		<CheckBox
+		    android:id="@+id/hour_arm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="false" />
+
+		</LinearLayout>
+				
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Hours"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">		
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Radious"/>
+
+		<EditText
+		    android:id="@+id/day_r"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="65" />
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:baselineAligned="true"
+		    android:orientation="horizontal" >
+
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Width"/>
+
+		<EditText
+		    android:id="@+id/day_w"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="7" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Tail" />
+
+		<EditText
+		    android:id="@+id/days_tail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="30" />
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arc" />
+
+		<CheckBox
+		    android:id="@+id/days_arc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="true" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arm" />
+
+		<CheckBox
+		    android:id="@+id/days_arm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="false" />
+
+		</LinearLayout>
+		
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Days"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">		
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Radious"/>
+
+		<EditText
+		    android:id="@+id/month_r"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="40" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">		
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Width"/>
+
+		<EditText
+		    android:id="@+id/month_w"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="10" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Tail" />
+
+		<EditText
+		    android:id="@+id/month_tail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="30" />
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arc" />
+
+		<CheckBox
+		    android:id="@+id/month_arc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="true" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arm" />
+
+		<CheckBox
+		    android:id="@+id/month_arm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="false" />
+
+		</LinearLayout>
+				
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Months"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Radious"/>
+
+		<EditText
+		    android:id="@+id/year_r"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="20" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="95"
+		    android:text="Width"/>
+
+		<EditText
+		    android:id="@+id/year_w"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="5" />
+		</LinearLayout>
+				
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Tail" />
+
+		<EditText
+		    android:id="@+id/year_tail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:text="30" />
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arc" />
+
+		<CheckBox
+		    android:id="@+id/year_arc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="true" />
+
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="95"
+		    android:text="Arm" />
+
+		<CheckBox
+		    android:id="@+id/year_arm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:checked="false" />
+
+		</LinearLayout>
+	</LinearLayout>
+    </ScrollView>
+   	
+	<com.sophiadaniels.arcclock.MyClock
+	    android:id="@+id/myClock1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+
+</LinearLayout>
