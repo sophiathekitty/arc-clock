@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/theme" android:title="Theme" android:checkable="false" android:enabled="true" android:showAsAction="always">
+        <menu>
+            <group android:id="@+id/group1" android:checkableBehavior="single">
+                <item android:id="@+id/theme1" android:title="Arc Clock" android:checkable="true" android:checked="true"/>
+                <item android:id="@+id/theme2" android:checkable="true" android:title="Standard Clock"/>
+            </group>
+        </menu>
+    </item>
+    
+
+</menu>

@@ -3,6 +3,7 @@ package com.sophiadaniels.arcclock;
 import java.util.Date;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -40,7 +41,7 @@ public class MyClock extends DigitalClock {
 	public int tails[] = {90,90,45,1,1};
 	public boolean arms[] = {true,false,false,false,false};
 	public boolean txts[] = {true,true,true,true,true};
-    @Override
+	@Override
 	protected void onDraw(Canvas c){
 //	    super.onDraw(c);
 	    Paint paint = new Paint();

@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, ArcClockActivity!</string>
     <string name="app_name">Arc Clock</string>
+    <string name="theme">arcclock</string>
 </resources>
